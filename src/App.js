@@ -1,11 +1,11 @@
-import './App.css';
+import Body from './components/Body';
 
 const App = () => {
   
   return (
-    <div className="text-center">
-      Hello Netflix
-    </div>
+    <>
+      <Body />
+    </>
   );
 }
 
